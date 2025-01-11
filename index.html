@@ -57,12 +57,12 @@
     <header class="pt-3 container-fluid">
       <div class="row py-2 py-sm-3">
         <!-- Logo -->
-        <div class="col-12 col-md-12 col-xl-5 pb-3 ps-md-5 ps-xl-0 text-center">
-          <p>João's Recipe's</p>
+        <div class="col-12 text-center">
+          <span id="logo" class="p-3">João's Recipe's</span>
         </div>
 
         <!-- Navbar -->
-        <div id="navbar" class="col-12 col-md-12 col-xl-7 my-auto">
+        <div id="navbar" class="col-12 my-auto">
           <!-- Navbar Collapse -->
           <nav
             class="navbar navbar-expand-lg py-3 ps-2 ps-sm-4 ps-md-5"
@@ -78,7 +78,7 @@
                 aria-expanded="false"
                 aria-label="Toggle navigation"
               >
-                <span class="navbar-toggler-icon"></span>
+                <span class="dropdown-icon"><i class="bi bi-list"></i></span>
               </button>
               <div
                 class="collapse navbar-collapse justify-content-center"
@@ -87,14 +87,14 @@
                 <!-- Navbar Items -->
                 <ul class="navbar-nav py-1">
                   <!-- Home -->
-                  <li class="nav-item pe-lg-3 pe-xl-1">
+                  <li class="pe-lg-3 pe-xl-1">
                     <a class="nav-link active" aria-current="page" href="#"
                       >Home</a
                     >
                   </li>
 
                   <!-- Recipe dropdown -->
-                  <li class="nav-item ps-lg-3 ps-xl-2 dropdown">
+                  <li class="ps-lg-3 ps-xl-2 dropdown">
                     <a
                       class="nav-link dropdown-toggle"
                       href="#"
@@ -124,7 +124,7 @@
                   </li>
 
                   <!-- Contact -->
-                  <li class="nav-item ps-lg-3 ps-xl-2">
+                  <li class="ps-lg-3 ps-xl-2">
                     <a class="nav-link" href="#">Contact</a>
                   </li>
                 </ul>
@@ -151,7 +151,7 @@
         >
           <ul class="row nav">
             <!-- Home -->
-            <li class="nav-item">
+            <li class="">
               <a
                 class="nav-link text-start active"
                 aria-current="page"
@@ -162,7 +162,7 @@
             </li>
 
             <!-- recipe dropdown -->
-            <li class="nav-item dropdown">
+            <li class="dropdown">
               <a
                 class="nav-link dropdown-toggle text-start"
                 href="#"
@@ -172,7 +172,7 @@
               >
                 Recipe's
               </a>
-              <ul class="dropdown-menu dropdown-widen-footer">
+              <ul class="dropdown-menu">
                 <li>
                   <a class="dropdown-item text-wrap" href="#"
                     >Appetizers<i class="bi bi-arrow-right ps-2"></i
@@ -190,24 +190,23 @@
                 </li>
               </ul>
             </li>
+
+            <!-- Contact -->
+            <li class="">
+              <a class="nav-link text-start" href="#"> Contact </a>
+            </li>
           </ul>
         </div>
 
         <!-- Footer navigation 2 -->
         <div class="col-6 col-sm-4 col-lg-3 pt-4 pb-2 order-2 order-sm-3">
-          <ul class="row nav">
-            <li class="nav-item">
-              <a class="nav-link text-start" href="./events-and-media.html">
-                Contact
-              </a>
-            </li>
-          </ul>
+          <p>Socials!!!</p>
         </div>
 
         <!-- Copyright -->
         <div class="col-12 col-sm-12 order-5 text-center">
           <a
-            class="footer-nav-link"
+            class="nav-link"
             href="https://joao4569.github.io/portfolio/"
             rel="noopener"
             target="_blank"
@@ -225,12 +224,9 @@
           <div class="row">
             <div class="col-12 col-sm-6 col-lg-12">
               <p class="pt-5 pt-lg-4">
-                <span class="">Privacy Policy</span>
-              </p>
-            </div>
-            <div class="col-12 col-sm-6 col-lg-12">
-              <p class="pt-1 pt-sm-5 pt-lg-3">
-                <span class="">Datenschutzerklärung</span>
+                <a class="nav-link" href="#">
+                  <span>Privacy Policy</span>
+                </a>
               </p>
             </div>
           </div>

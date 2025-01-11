@@ -1,4 +1,54 @@
-h2 {
-  background-color: #607d8b;
-  color: #ffffff;
+/* Setup */
+:root {
+  border: none;
+  margin: none;
+  font-size: 1rem;
+
+  /* Colors */
+  --jasmine-color: #fadf7f;
+  --aerospace-color: #ff4e00;
+  --jet-color: #363537;
+}
+
+/* Fonts */
+header {
+  font-size: 1.25rem;
+}
+
+#logo {
+  font-size: 2rem !important;
+}
+
+footer {
+  font-size: 1.1rem;
+}
+
+/* Header and Footer */
+header,
+footer {
+  background-color: var(--jasmine-color);
+  color: var(--aerospace-color);
+}
+
+.nav-link {
+  color: var(--aerospace-color) !important;
+}
+
+.dropdown-menu {
+  background-color: var(--jasmine-color) !important;
+}
+
+.dropdown-item,
+.dropdown-icon {
+  color: var(--aerospace-color) !important;
+}
+
+.dropdown-item:hover,
+.nav-link:hover {
+  background-color: var(--jasmine-color) !important;
+  color: var(--jet-color) !important;
+}
+
+.navbar-toggler {
+  border-color: var(--aerospace-color) !important;
 }
