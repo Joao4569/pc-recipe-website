@@ -131,6 +131,7 @@ h1 {
 
 /* Media queries */
 
+/* Small devices (landscape phones, up to 576px) */
 @media (max-width: 576px) {
   #main-logo {
     font-size: 2.5rem !important;
@@ -147,5 +148,16 @@ h1 {
 
   .footer-nav-text {
     font-size: 1rem;
+  }
+}
+
+/* Medium devices (tablets, 577px to 768px) */
+@media (min-width: 577px) and (max-width: 768px) {
+  #secondary-logo {
+    font-size: 1.8rem !important;
+  }
+
+  .dropdown-menu {
+    width: 30vw !important;
   }
 }
