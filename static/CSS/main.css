@@ -25,6 +25,7 @@ body {
   font-optical-sizing: auto !important;
   font-weight: 500 !important;
   font-style: normal !important;
+  background-color: var(--jasmine-color) !important;
 }
 
 /* Fonts */
@@ -40,16 +41,26 @@ header {
   font-size: 1.25rem;
 }
 
-#logo {
+#main-logo {
   font-size: 3.5rem !important;
+  text-shadow: 3px 3px 3px var(--jet-color);
+}
+
+#secondary-logo {
+  font-size: 2.5rem !important;
+  text-shadow: 3px 3px 3px var(--jet-color);
 }
 
 footer {
   font-size: 1.1rem;
 }
 
+.bi-suit-heart-fill {
+  font-size: 1.5rem !important;
+}
+
 /* Header and Footer */
-header,
+#navbar,
 footer {
   background-color: var(--emerald-color);
   color: var(--aerospace-color);
@@ -61,6 +72,9 @@ footer {
 
 .dropdown-menu {
   background-color: var(--emerald-color) !important;
+  border-color: var(--jasmine-color) !important;
+  border-width: 3px !important;
+  width: 10vw;
 }
 
 .dropdown-item,
@@ -69,11 +83,69 @@ footer {
 }
 
 .dropdown-item:hover,
-.nav-link:hover {
+.nav-link:hover,
+.social-icon:hover {
   background-color: var(--emerald-color) !important;
-  color: var(--aerospace-color) !important;
+  color: var(--jasmine-color) !important;
 }
 
 .navbar-toggler {
-  border-color: var(--aerospace-color) !important;
+  border-color: var(--jet-color) !important;
+  border-width: 3px !important;
+}
+
+.active,
+.bi-list,
+.bi-suit-heart-fill,
+#logo,
+.active:hover {
+  color: var(--aerospace-color) !important;
+}
+
+.list-group-item {
+  border: none !important;
+  background-color: var(--emerald-color) !important;
+  color: var(--jet-color) !important;
+  font-size: 1.5rem;
+}
+
+li::marker {
+  color: var(--emerald-color);
+}
+
+/* Home page */
+
+.intro-padding {
+  padding-top: 10vh;
+  padding-bottom: 10vh;
+}
+
+#hero-image {
+  box-shadow: -5px 10px 10px var(--jet-color);
+}
+
+h1 {
+  color: var(--aerospace-color) !important;
+  text-shadow: 1px 1px 1px var(--jet-color);
+}
+
+/* Media queries */
+
+@media (max-width: 576px) {
+  #main-logo {
+    font-size: 2.5rem !important;
+  }
+
+  .dropdown-menu {
+    width: 50vw !important;
+  }
+
+  #secondary-logo {
+    font-size: 1.5rem !important;
+    text-shadow: 1px 1px 1px var(--jet-color);
+  }
+
+  .footer-nav-text {
+    font-size: 1rem;
+  }
 }
