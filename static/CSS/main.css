@@ -1,3 +1,11 @@
+/* Imports */
+
+/* Acme font - Weight: 400 */
+@import url("https://fonts.googleapis.com/css2?family=Acme&display=swap");
+
+/* Quicksand font - Weights: 300, 400, 500, 600, 700 */
+@import url("https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap");
+
 /* Setup */
 :root {
   border: none;
@@ -5,18 +13,35 @@
   font-size: 1rem;
 
   /* Colors */
-  --jasmine-color: #fadf7f;
+  --emerald-color: #0cce6b;
   --aerospace-color: #ff4e00;
   --jet-color: #363537;
+  --jasmine-color: #fadf7f;
+  --white-smoke-color: #f6f4f3;
+}
+
+body {
+  font-family: "Quicksand", serif !important;
+  font-optical-sizing: auto !important;
+  font-weight: 500 !important;
+  font-style: normal !important;
 }
 
 /* Fonts */
+
+.acme-regular {
+  font-family: "Acme", serif !important;
+  font-weight: 400 !important;
+  font-style: normal !important;
+}
+
+/* Font-sizes */
 header {
   font-size: 1.25rem;
 }
 
 #logo {
-  font-size: 2rem !important;
+  font-size: 3.5rem !important;
 }
 
 footer {
@@ -26,27 +51,27 @@ footer {
 /* Header and Footer */
 header,
 footer {
-  background-color: var(--jasmine-color);
+  background-color: var(--emerald-color);
   color: var(--aerospace-color);
 }
 
 .nav-link {
-  color: var(--aerospace-color) !important;
+  color: var(--jet-color) !important;
 }
 
 .dropdown-menu {
-  background-color: var(--jasmine-color) !important;
+  background-color: var(--emerald-color) !important;
 }
 
 .dropdown-item,
 .dropdown-icon {
-  color: var(--aerospace-color) !important;
+  color: var(--jet-color) !important;
 }
 
 .dropdown-item:hover,
 .nav-link:hover {
-  background-color: var(--jasmine-color) !important;
-  color: var(--jet-color) !important;
+  background-color: var(--emerald-color) !important;
+  color: var(--aerospace-color) !important;
 }
 
 .navbar-toggler {
