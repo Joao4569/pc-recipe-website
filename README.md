@@ -16,3 +16,4 @@ João's Recipe's was created with HTML, CSS and Bootstrap. The website is hosted
 - Icons taken from [Bootstrap Icons](https://icons.getbootstrap.com/).
 - Images sourced on [Unsplash.com](https://unsplash.com/).
 - I made use of [ChatGPT](https://www.chatgpt.com) for general content such as the introductory paragraphs, ingredient list and cooking instructions.
+- I made use of [Privacy Policy Generator](https://www.privacypolicygenerator.info/) to create a Privacy Policy for this project.
