@@ -17,3 +17,9 @@ João's Recipe's was created with HTML, CSS and Bootstrap. The website is hosted
 - Images sourced on [Unsplash.com](https://unsplash.com/).
 - I made use of [ChatGPT](https://www.chatgpt.com) for general content such as the introductory paragraphs, ingredient list and cooking instructions.
 - I made use of [Privacy Policy Generator](https://www.privacypolicygenerator.info/) to create a Privacy Policy for this project.
+- Recipe's:
+- Appetizers:
+- Seafood & Cucumber Appetizers taken from [In the kitchen with Elisa](https://www.inthekitchenwithelisa.com/seafood-and-cucumber-appetizers).
+- Fastest puff pastry appetizer ever! taken from [FairyTasty's youtube channel](https://www.youtube.com/watch?v=nmyeLxPgtaA).
+- Italian Bruschetta taken from [Natasha's Kitchen](https://natashaskitchen.com/classic-bruschetta-recipe/).
+- Italian Pasta Salad taken from [Natasha's Kitchen](https://natashaskitchen.com/italian-pasta-salad/).
