@@ -42,8 +42,8 @@ header {
 }
 
 #main-logo {
-  font-size: 3.5rem !important;
-  text-shadow: 3px 3px 3px var(--jet-color);
+  font-size: 5rem !important;
+  text-shadow: 2px 2px 2px var(--jet-color);
 }
 
 #secondary-logo {
@@ -128,7 +128,6 @@ li::marker {
   box-shadow: -5px 10px 10px var(--jet-color);
 }
 
-h1,
 .card-title,
 h2 {
   color: var(--aerospace-color) !important;
@@ -137,6 +136,8 @@ h2 {
 
 h1 {
   font-size: 4rem !important;
+  color: var(--aerospace-color) !important;
+  text-shadow: 2px 2px 2px var(--jet-color);
 }
 
 /* Appetizers */
@@ -204,5 +205,9 @@ iframe {
     margin: auto !important;
     width: 854px;
     height: 480px;
+  }
+
+  .ingredients {
+    margin-left: 15vw !important;
   }
 }

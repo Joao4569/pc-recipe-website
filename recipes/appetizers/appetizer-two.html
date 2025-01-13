@@ -16,7 +16,7 @@
     <!-- Link to CSS -->
     <link rel="stylesheet" href="/static/CSS/main.css" />
 
-    <title>Appetizer's</title>
+    <title>Fastest puff pastry appetizer ever!</title>
 
     <!-- Bootstrap CSS -->
     <link
@@ -107,8 +107,8 @@
                     <ul class="dropdown-menu dropdown-widen">
                       <li>
                         <a
-                          class="dropdown-item text-wrap fw-bold active"
-                          href="#"
+                          class="dropdown-item text-wrap fw-bold"
+                          href="/recipes/appetizers/appetizer.html"
                           >Appetizers<i class="bi bi-arrow-right ps-2"></i
                         ></a>
                       </li>
@@ -138,101 +138,51 @@
     </header>
 
     <!-- Main content -->
-
-    <!-- Title -->
     <section>
+      <!-- Recipe title -->
       <div class="row intro-padding">
-        <h1 class="acme-regular text-center">Appetizers</h1>
+        <h1 class="acme-regular text-center">
+          Fastest puff pastry appetizer ever!
+        </h1>
       </div>
 
-      <!-- Recipe cards -->
-      <div class="row px-5 justify-content-evenly pb-5">
-        <!-- Card 1 -->
-        <div class="col-12 col-md-5 col-xl-3 me-md-3 mb-5 card pt-2">
-          <img
-            src="https://img.youtube.com/vi/2C-90mqlCJE/mqdefault.jpg"
-            class="card-img-top"
-            alt="..."
-          />
-          <div class="card-body">
-            <h5 class="card-title text-center acme-regular">
-              Seafood &amp; Cucumber Appetizers
-            </h5>
-            <p class="card-text">
-              This recipe is a great appetizer for any occasion. It is easy to
-              make and tastes delicious.
-            </p>
-            <a
-              href="/recipes/appetizers/appetizer-one.html"
-              class="btn btn-card fw-bold"
-              >Recipe<i class="bi bi-arrow-right ps-2"></i
-            ></a>
-          </div>
+      <!-- Recipe video -->
+      <div class="recipe-video row mb-5">
+        <div class="recipe-video col-12 text-center">
+          <iframe
+            src="https://www.youtube.com/embed/nmyeLxPgtaA"
+            title="I taught all my friends how to make the fastest puff pastry appetizer ever!"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+            referrerpolicy="strict-origin-when-cross-origin"
+            allowfullscreen
+          ></iframe>
+        </div>
+      </div>
+
+      <!-- Ingredients and direction -->
+      <div class="row pt-lg-5">
+        <!-- Ingredients -->
+        <div class="ingredients col-12 col-lg-4 ps-lg-5 px-xl-5">
+          <!-- Ingredients -->
+          <h2 class="acme-regular">Ingredients:</h2>
+
+          <!-- Ingredients list -->
+          <ul class="mb-5 px-5">
+            <li class="ingredient-item">puff pastry - 800 g</li>
+            <li class="ingredient-item">tomato sauce -100 g</li>
+            <li class="ingredient-item">bacon - 200 g</li>
+            <li class="ingredient-item">cheese - 100 g</li>
+            <li class="ingredient-item">green onions - 100 g</li>
+            <li class="ingredient-item">egg - 1 piece</li>
+          </ul>
         </div>
 
-        <!-- Card 2 -->
-        <div class="col-12 col-md-5 col-xl-3 me-md-3 mb-5 card pt-2">
-          <img
-            src="https://img.youtube.com/vi/nmyeLxPgtaA/mqdefault.jpg"
-            class="card-img-top"
-            alt="..."
-          />
-          <div class="card-body">
-            <h5 class="card-title text-center acme-regular">
-              Fastest puff pastry appetizer ever!
-            </h5>
-            <p class="card-text">
-              A quick and easy appetizer that will impress your guests.
-            </p>
-            <a
-              href="/recipes/appetizers/appetizer-two.html"
-              class="btn btn-card fw-bold"
-              >Recipe<i class="bi bi-arrow-right ps-2"></i
-            ></a>
-          </div>
-        </div>
-
-        <!-- Card 3 -->
-        <div class="col-12 col-md-5 col-xl-3 me-md-3 mb-5 card pt-2">
-          <img
-            src="https://img.youtube.com/vi/Q3xg35pcLyo/mqdefault.jpg"
-            class="card-img-top"
-            alt="..."
-          />
-          <div class="card-body">
-            <h5 class="card-title text-center acme-regular">
-              Italian BRUSCHETTA
-            </h5>
-            <p class="card-text">
-              Authentic Italian Bruschetta! Learn how to make a crowd-pleasing
-              tomato bruschetta. The parmesan toasts take these over the top and
-              you will love that drizzle of Balsamic Glaze.
-            </p>
-            <a href="#" class="btn btn-card fw-bold"
-              >Recipe<i class="bi bi-arrow-right ps-2"></i
-            ></a>
-          </div>
-        </div>
-
-        <!-- Card 4 -->
-        <div class="col-12 col-md-5 col-xl-3 me-md-3 mb-5 card pt-2">
-          <img
-            src="https://img.youtube.com/vi/21rgi2Imq14/mqdefault.jpg"
-            class="card-img-top"
-            alt="..."
-          />
-          <div class="card-body">
-            <h5 class="card-title text-center acme-regular">
-              Italian PASTA SALAD
-            </h5>
-            <p class="card-text">
-              Some quick example text to build on the card title and make up the
-              bulk of the card's content.
-            </p>
-            <a href="#" class="btn btn-card fw-bold"
-              >Recipe<i class="bi bi-arrow-right ps-2"></i
-            ></a>
-          </div>
+        <!-- Direction -->
+        <div class="col-12 col-lg-6 px-xl-5">
+          <h2 class="acme-regular mb-4">Directions:</h2>
+          <ol type="1" class="px-5">
+            <li class="mb-3">Bake at 180 degrees C for 30 minutes</li>
+          </ol>
         </div>
       </div>
     </section>
@@ -277,7 +227,9 @@
               </a>
               <ul class="dropdown-menu">
                 <li>
-                  <a class="dropdown-item text-wrap fw-semibold active" href="#"
+                  <a
+                    class="dropdown-item text-wrap fw-semibold"
+                    href="/recipes/appetizers/appetizer.html"
                     >Appetizers<i class="bi bi-arrow-right ps-2"></i
                   ></a>
                 </li>
