@@ -8,8 +8,8 @@
 
 /* Setup */
 :root {
-  border: none;
-  margin: none;
+  margin: 0;
+  padding: 0;
   font-size: 1rem;
 
   /* Colors */
@@ -100,6 +100,10 @@ footer {
 #logo,
 .active:hover {
   color: var(--aerospace-color) !important;
+}
+
+.active {
+  background-color: var(--emerald-color) !important;
 }
 
 .list-group-item {
