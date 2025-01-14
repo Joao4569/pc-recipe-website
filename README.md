@@ -40,3 +40,5 @@ João's Recipe's was created with HTML, CSS, Javascript, Bootstrap and EmailJS. 
     - Coffee Pudding recipe taken from [HomeCookingShow's Youtube channel](https://www.youtube.com/watch?v=uZRww9g2Pjk).
     - Jam Oat Bars recipe taken from [The Cooking Foodie](https://thecookingfoodie.com/recipe/healthy-oatmeal-jam-bars-refined-sugar-free/#recipe_ingredients).
     - Moist & Fudgy Chocolate Cake recipe taken from [CookingAtHome's Youtube channel](https://www.youtube.com/watch?v=EaljSnLrJW8).
+
+- I made use of [EmailJS](https://www.emailjs.com/) to add the functionality for users to contact me through the website.
