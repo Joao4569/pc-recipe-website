@@ -13,7 +13,6 @@
   font-size: 1rem;
 
   /* Colors */
-  --emerald-color: #0cce6b;
   --aerospace-color: #ff4e00;
   --jet-color: #363537;
   --jasmine-color: #fadf7f;
@@ -37,18 +36,17 @@ body {
 }
 
 /* Font-sizes */
+
 header {
   font-size: 1.25rem;
 }
 
 #main-logo {
   font-size: 5rem !important;
-  text-shadow: 2px 2px 2px var(--jet-color);
 }
 
 #secondary-logo {
   font-size: 2.5rem !important;
-  text-shadow: 2px 2px 2px var(--jet-color);
 }
 
 footer {
@@ -59,67 +57,91 @@ footer {
   font-size: 1.5rem !important;
 }
 
-/* Header and Footer */
+#main-logo,
+#secondary-logo {
+  text-shadow: 2px 2px 2px var(--jet-color);
+}
+
+/* Colors and details */
+
 #navbar,
-footer {
-  background-color: var(--emerald-color);
-  color: var(--aerospace-color);
+footer,
+.dropdown-menu,
+.dropdown-item:hover,
+.nav-link:hover,
+.social-icon:hover,
+.list-group-item,
+.active {
+  background-color: var(--jasmine-color) !important;
+}
+
+#navbar,
+footer,
+.bi-list,
+.bi-suit-heart-fill,
+#logo,
+.active:hover,
+h1,
+.card-title,
+h2,
+.ingredient-item-sub-title {
+  color: var(--aerospace-color) !important;
+}
+
+.dropdown-item,
+.dropdown-icon,
+.navbar-toggler,
+.list-group-item {
+  color: var(--jet-color) !important;
 }
 
 .nav-link {
   color: var(--jet-color) !important;
 }
 
-.dropdown-menu {
-  background-color: var(--emerald-color) !important;
-  border-color: var(--jasmine-color) !important;
-  border-width: 3px !important;
-  width: 10vw;
+.active {
+  color: var(--aerospace-color) !important;
 }
 
-.dropdown-item,
-.dropdown-icon {
-  color: var(--jet-color) !important;
+.dropdown-menu {
+  border-color: var(--jasmine-color) !important;
+  width: 10vw;
 }
 
 .dropdown-item:hover,
 .nav-link:hover,
 .social-icon:hover {
-  background-color: var(--emerald-color) !important;
-  color: var(--jasmine-color) !important;
-}
-
-.navbar-toggler {
-  border-color: var(--jet-color) !important;
-  border-width: 3px !important;
-}
-
-.active,
-.bi-list,
-.bi-suit-heart-fill,
-#logo,
-.active:hover {
   color: var(--aerospace-color) !important;
 }
 
-.active {
-  background-color: var(--emerald-color) !important;
+.navbar-toggler,
+.dropdown-menu {
+  border-width: 3px !important;
 }
 
 .list-group-item {
   border: none !important;
-  background-color: var(--emerald-color) !important;
-  color: var(--jet-color) !important;
   font-size: 1.5rem;
 }
 
 li::marker {
-  color: var(--emerald-color);
+  color: var(--jasmine-color);
 }
 
-.btn-form {
+.btn-form,
+.btn-card {
   color: var(--white-smoke-color) !important;
   background-color: var(--jet-color) !important;
+}
+
+.btn-card:hover,
+.btn-form:hover {
+  background-color: var(--aerospace-color) !important;
+  color: var(--jasmine-color) !important;
+}
+
+.card {
+  background-color: var(--jasmine-color) !important;
 }
 
 /* Home page */
@@ -136,25 +158,12 @@ li::marker {
 .card-title,
 h2,
 .ingredient-item-sub-title {
-  color: var(--aerospace-color) !important;
   text-shadow: 1px 1px 1px var(--jet-color);
 }
 
 h1 {
   font-size: 4rem !important;
-  color: var(--aerospace-color) !important;
   text-shadow: 2px 2px 2px var(--jet-color);
-}
-
-/* Appetizers */
-
-.card {
-  background-color: var(--jasmine-color) !important;
-}
-
-.btn-card {
-  background-color: var(--jet-color) !important;
-  color: var(--white-smoke-color) !important;
 }
 
 /* Recipes */
