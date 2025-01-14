@@ -117,6 +117,11 @@ li::marker {
   color: var(--emerald-color);
 }
 
+.btn-form {
+  color: var(--white-smoke-color) !important;
+  background-color: var(--jet-color) !important;
+}
+
 /* Home page */
 
 .intro-padding {

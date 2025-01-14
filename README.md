@@ -6,7 +6,7 @@ João's Recipe's is a website designed to share good recipe's from good chefs, f
 
 # Technologies
 
-João's Recipe's was created with HTML, CSS and Bootstrap. The website is hosted on [Netlify](https://www.netlify.com) and set up to automatically deploy from the projects GitHub Repository.
+João's Recipe's was created with HTML, CSS, Javascript, Bootstrap and EmailJS. The website is hosted on [Netlify](https://www.netlify.com) and set up to automatically deploy from the projects GitHub Repository.
 
 # Credits
 
