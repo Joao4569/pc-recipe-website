@@ -13,9 +13,9 @@
   font-size: 1rem;
 
   /* Colors */
-  --aerospace-color: #ff4e00;
-  --jet-color: #363537;
-  --jasmine-color: #fadf7f;
+  --tomato-color: #f85a3e;
+  --wine-color: #632b30;
+  --xanthous-color: #e6af2e;
   --white-smoke-color: #f6f4f3;
 }
 
@@ -54,12 +54,16 @@ footer {
 }
 
 .bi-suit-heart-fill {
-  font-size: 1.5rem !important;
+  font-size: 3rem !important;
 }
 
 #main-logo,
 #secondary-logo {
-  text-shadow: 2px 2px 2px var(--jet-color);
+  text-shadow: 2px 2px 2px var(--wine-color);
+}
+
+.card-title {
+  font-size: 1.5rem !important;
 }
 
 /* Colors and details */
@@ -71,8 +75,9 @@ footer,
 .nav-link:hover,
 .social-icon:hover,
 .list-group-item,
-.active {
-  background-color: var(--jasmine-color) !important;
+.active,
+.form-bg {
+  background-color: var(--xanthous-color) !important;
 }
 
 #navbar,
@@ -82,36 +87,36 @@ footer,
 #logo,
 .active:hover,
 h1,
-.card-title,
 h2,
 .ingredient-item-sub-title {
-  color: var(--aerospace-color) !important;
+  color: var(--tomato-color) !important;
 }
 
-.dropdown-item,
 .dropdown-icon,
-.navbar-toggler,
-.list-group-item {
-  color: var(--jet-color) !important;
+.navbar-toggler {
+  color: var(--tomato-color) !important;
 }
 
-.nav-link {
-  color: var(--jet-color) !important;
+.nav-link,
+.dropdown-item,
+.list-group-item,
+.card-title {
+  color: var(--white-smoke-color) !important;
 }
 
 .active {
-  color: var(--aerospace-color) !important;
+  color: var(--white-smoke-color) !important;
 }
 
 .dropdown-menu {
-  border-color: var(--jasmine-color) !important;
+  border-color: var(--xanthous-color) !important;
   width: 10vw;
 }
 
 .dropdown-item:hover,
 .nav-link:hover,
 .social-icon:hover {
-  color: var(--aerospace-color) !important;
+  color: var(--tomato-color) !important;
 }
 
 .navbar-toggler,
@@ -125,23 +130,23 @@ h2,
 }
 
 li::marker {
-  color: var(--jasmine-color);
+  color: var(--xanthous-color);
 }
 
 .btn-form,
 .btn-card {
   color: var(--white-smoke-color) !important;
-  background-color: var(--jet-color) !important;
+  background-color: var(--wine-color) !important;
 }
 
 .btn-card:hover,
 .btn-form:hover {
-  background-color: var(--aerospace-color) !important;
-  color: var(--jasmine-color) !important;
+  background-color: var(--tomato-color) !important;
+  color: var(--xanthous-color) !important;
 }
 
 .card {
-  background-color: var(--jasmine-color) !important;
+  background-color: var(--xanthous-color) !important;
 }
 
 /* Home page */
@@ -152,18 +157,18 @@ li::marker {
 }
 
 #hero-image {
-  box-shadow: -5px 10px 10px var(--jet-color);
+  box-shadow: -5px 10px 10px var(--wine-color);
 }
 
 .card-title,
 h2,
 .ingredient-item-sub-title {
-  text-shadow: 1px 1px 1px var(--jet-color);
+  text-shadow: 1px 1px 1px var(--wine-color);
 }
 
 h1 {
   font-size: 4rem !important;
-  text-shadow: 2px 2px 2px var(--jet-color);
+  text-shadow: 2px 2px 2px var(--wine-color);
 }
 
 /* Recipes */
@@ -187,7 +192,7 @@ iframe {
 /* Small devices (landscape phones, up to 576px) */
 @media (max-width: 576px) {
   #main-logo {
-    font-size: 2.5rem !important;
+    font-size: 3rem !important;
   }
 
   .dropdown-menu {
@@ -196,7 +201,7 @@ iframe {
 
   #secondary-logo {
     font-size: 1.5rem !important;
-    text-shadow: 1px 1px 1px var(--jet-color);
+    text-shadow: 1px 1px 1px var(--wine-color);
   }
 
   .footer-nav-text {
@@ -204,18 +209,37 @@ iframe {
   }
 
   h1 {
-    font-size: 2.5rem !important;
+    font-size: 2rem !important;
   }
 }
 
 /* Medium devices (tablets, 577px to 768px) */
 @media (min-width: 577px) and (max-width: 768px) {
+  #main-logo {
+    font-size: 3.5rem !important;
+  }
+
   #secondary-logo {
     font-size: 1.8rem !important;
   }
 
   .dropdown-menu {
     width: 30vw !important;
+  }
+
+  h1 {
+    font-size: 2.5rem !important;
+  }
+}
+
+/* Medium devices (tablets, 769px to 1024px) */
+@media (min-width: 769px) and (max-width: 1024px) {
+  #main-logo {
+    font-size: 3.5rem !important;
+  }
+
+  h1 {
+    font-size: 2.5rem !important;
   }
 }
 
