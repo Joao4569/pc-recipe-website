@@ -17,9 +17,18 @@ João's Recipe's was created with HTML, CSS and Bootstrap. The website is hosted
 - Images sourced on [Unsplash.com](https://unsplash.com/).
 - I made use of [ChatGPT](https://www.chatgpt.com) for general content such as the introductory paragraphs, ingredient list and cooking instructions.
 - I made use of [Privacy Policy Generator](https://www.privacypolicygenerator.info/) to create a Privacy Policy for this project.
+- All videos sourced on [Youtube](https://www.youtube.com).
 - Recipe's:
-- Appetizers:
-- Seafood & Cucumber Appetizers taken from [In the kitchen with Elisa](https://www.inthekitchenwithelisa.com/seafood-and-cucumber-appetizers).
-- Fastest puff pastry appetizer ever! taken from [FairyTasty's youtube channel](https://www.youtube.com/watch?v=nmyeLxPgtaA).
-- Italian Bruschetta taken from [Natasha's Kitchen](https://natashaskitchen.com/classic-bruschetta-recipe/).
-- Italian Pasta Salad taken from [Natasha's Kitchen](https://natashaskitchen.com/italian-pasta-salad/).
+
+  - Appetizers:
+
+    - Seafood & Cucumber Appetizers recipe taken from [In the kitchen with Elisa](https://www.inthekitchenwithelisa.com/seafood-and-cucumber-appetizers).
+    - Fastest puff pastry appetizer ever! recipe taken from [FairyTasty's youtube channel](https://www.youtube.com/watch?v=nmyeLxPgtaA).
+    - Italian Bruschetta recipe taken from [Natasha's Kitchen](https://natashaskitchen.com/classic-bruschetta-recipe/).
+    - Italian Pasta Salad recipe taken from [Natasha's Kitchen](https://natashaskitchen.com/italian-pasta-salad/).
+
+  - Main Courses:
+    - Marry Me Chicken recipe taken from [Recipe30](https://recipe30.com/marry-me-chicken.html/).
+    - Honey Garlic Pork Chops recipe taken from [Cafe Delites](https://cafedelites.com/easy-honey-garlic-pork-chops/).
+    - Chicken Fricassée (quick French chicken stew) recipe taken from [recipetineats](https://www.recipetineats.com/chicken-fricassee-quick-french-chicken-stew/).
+    - Butter Garlic Chicken recipe taken from [Spice Eats Youtube channel](https://www.youtube.com/watch?v=W8gnfLe8n04).
