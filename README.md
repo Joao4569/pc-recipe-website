@@ -28,7 +28,12 @@ João's Recipe's was created with HTML, CSS and Bootstrap. The website is hosted
     - Italian Pasta Salad recipe taken from [Natasha's Kitchen](https://natashaskitchen.com/italian-pasta-salad/).
 
   - Main Courses:
+
     - Marry Me Chicken recipe taken from [Recipe30](https://recipe30.com/marry-me-chicken.html/).
     - Honey Garlic Pork Chops recipe taken from [Cafe Delites](https://cafedelites.com/easy-honey-garlic-pork-chops/).
     - Chicken Fricassée (quick French chicken stew) recipe taken from [recipetineats](https://www.recipetineats.com/chicken-fricassee-quick-french-chicken-stew/).
     - Butter Garlic Chicken recipe taken from [Spice Eats Youtube channel](https://www.youtube.com/watch?v=W8gnfLe8n04).
+
+  - Desserts:
+
+    - Chocolate Brownie Cake recipe taken from [Food Fusion](https://www.foodfusion.com/recipe/brownie-cake-dessert/).
