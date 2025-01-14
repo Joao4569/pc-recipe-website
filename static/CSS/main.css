@@ -129,7 +129,8 @@ li::marker {
 }
 
 .card-title,
-h2 {
+h2,
+.ingredient-item-sub-title {
   color: var(--aerospace-color) !important;
   text-shadow: 1px 1px 1px var(--jet-color);
 }
@@ -162,6 +163,11 @@ iframe {
   width: 100%;
   height: 100%;
 }
+
+.ingredient-item-sub-title {
+  list-style-type: none;
+}
+
 /* Media queries */
 
 /* Small devices (landscape phones, up to 576px) */
