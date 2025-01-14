@@ -85,7 +85,6 @@ footer,
 .bi-list,
 .bi-suit-heart-fill,
 #logo,
-.active:hover,
 h1,
 h2,
 .ingredient-item-sub-title {
@@ -104,10 +103,6 @@ h2,
   color: var(--white-smoke-color) !important;
 }
 
-.active {
-  color: var(--white-smoke-color) !important;
-}
-
 .dropdown-menu {
   border-color: var(--xanthous-color) !important;
   width: 10vw;
@@ -117,6 +112,11 @@ h2,
 .nav-link:hover,
 .social-icon:hover {
   color: var(--tomato-color) !important;
+}
+
+.active,
+.active:hover {
+  color: var(--wine-color) !important;
 }
 
 .navbar-toggler,
