@@ -15,5 +15,6 @@
   "files.autoSave": "off",
   "workbench.colorTheme": "Visual Studio Dark",
   "terminal.integrated.gpuAcceleration": "canvas",
-  "cSpell.words": ["Bruschetta", "João's"]
+  "cSpell.words": ["Bruschetta", "João's"],
+  "liveServer.settings.port": 5501
 }
